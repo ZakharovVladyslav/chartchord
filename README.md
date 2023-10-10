@@ -1,1 +1,1 @@
-# KATEK-Remastered
+# KATEK Remastered

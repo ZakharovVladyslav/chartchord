@@ -1,0 +1,22 @@
+.tabsBar {
+    padding: 0.625rem 0.625rem;
+
+    height: fit-content;
+
+    display: flex;
+    justify-content: start;
+    align-content: center;
+}
+
+.tabsBar:first-child {
+    margin-left: 1.25rem;
+}
+
+.tabsBar:last-child {
+    margin-right: 1.25rem;
+}
+
+.main {
+    border-bottom-width: 1px;
+    border-color: white;
+}

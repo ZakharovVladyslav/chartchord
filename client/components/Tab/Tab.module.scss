@@ -1,0 +1,54 @@
+.tab {
+    padding: 0 0.625rem;
+
+    border-radius: 0.25rem;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+    border: 1px solid #696969;
+
+    width: 8rem;
+    height: 2.5rem;
+
+    background-color: #1e1e1e;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    cursor: pointer;
+
+    transition: all 0.15s ease-in-out;
+}
+
+.tab:hover {
+    background-color: #696969;
+}
+
+.tab:focus {
+    outline: none;
+}
+
+.label {
+    color: white;
+    font-size: 1rem;
+    line-height: 110%;
+    text-align: center;
+}
+
+.active {
+    background-color: #04bcd0;
+}
+
+.active:hover {
+    background-color: #04bcd0;
+}
+
+.activeTabLabel {
+    background-color: #063246;
+}
+
+.crossMarkIcon {
+    width: 0.825rem;
+    height: 0.825rem;
+}
